@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    user-select: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("images/background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* ----------------------UPPER PANEL------------------------ */
+.upper_panel {
+
+    background-color: #ffffff17;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    user-select: none;
+}
+
+
+.main_label h1 {
+
+    font-size: 50px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+.main_label:hover {
+
+    color: rgba(140, 0, 255, 0.349);
+}
+
+/* -----------------/UPPER PANEL---------------------- */
+
+/* -----------------BUTTONS---------------- */
+
+.buttons button {
+
+    background-color: #ffffff41;
+    color: rgba(255, 255, 255, 0.76);
+    border: none;
+    border-color: rgba(255, 255, 255, 0);
+    outline: none;
+    padding: 20px 40px 20px 40px;
+    margin-right: 200px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: 0.3s;
+    font-size: 20px;
+    border-style:hidden;
+}
+
+.buttons button:hover {
+    
+    color: white;
+}
+
+#profile_button {
+
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#profile_button:hover {
+
+    background-color: rgba(90, 84, 4, 0.314);
+}
+
+#profile_button img {
+
+    margin-top: 0px;
+    margin-right: 3px;
+    width: 40px;
+    height: 40px;
+}
+
+#dashboard_button {
+
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#dashboard_button:hover {
+
+    background-color: rgba(4, 109, 69, 0.314);
+}
+#dashboard_button img {
+
+    margin-top: 0px;
+    margin-right: 3px;
+    width: 40px;
+    height: 40px;
+}
+
+#faq_button {
+
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#faq_button:hover {
+
+    background-color: rgba(7, 73, 216, 0.314);
+}
+#faq_button img {
+
+    width: 40px;
+    height: 40px;
+}
+
+#blog_button {
+
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+#blog_button:hover {
+
+    background-color: rgba(5, 245, 185, 0.314);
+}
+#blog_button img {
+
+    width: 40px;
+    height: 40px;
+}
+
+/*-------------- SCROLL BAR ------------------*/
+::-webkit-scrollbar {
+    
+    width: 12px;
+    background-color: #808080;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: #505050;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+    background-color: #555;
+}
+/* -------------/SCROLL BAR----------------- */
