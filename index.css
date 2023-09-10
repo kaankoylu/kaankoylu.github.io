@@ -148,6 +148,12 @@ li {
     height: 40px;
 }
 
+aside  img{
+
+    width: 70px;
+    height: 70px;
+}
+
 /*-------------- SCROLL BAR ------------------*/
 ::-webkit-scrollbar {
     
