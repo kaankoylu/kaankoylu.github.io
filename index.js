@@ -24,7 +24,6 @@ profile_button.addEventListener("click" , () => {
                         <li><h2><p>Hardworker</p></h2></li>
                         <li><h2><p>Creative</p></h2></li>
                         <li><h2><p>Adaptable</p></h2></li>
-                        <li><h2><p>Listener</p></h2></li>
                         <li><h2><p>Philosophy</p></li>
                     </ol>
                 </div>
