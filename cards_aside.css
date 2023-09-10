@@ -6,7 +6,7 @@
     transition: 0.2s;
     backdrop-filter: blur(7px);
     width: 80%; /* Adjust the width as needed */
-    margin-top: -14%; /* Add margin to separate from the sidebar content */
+    margin-top: -17%; /* Add margin to separate from the sidebar content */
     margin-left: 16.5%; /* Add margin to separate from the sidebar */
 }
 
