@@ -178,31 +178,42 @@ aside  img{
 #main_page{
     margin-left: 17%;
     margin-top: -16%;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     padding-bottom: 14%;
 }
 #main_page .main_subject{
-    color: rgba(0, 0, 0, 0.808);
+    color: rgb(255, 255, 255);
     font-size: 90px;
+    
 }
 
 .subject{
     font-size: 50px;
-    color: rgba(0, 0, 0, 0.568);
+    color: rgb(252, 252, 252);
 }
 
 .list{
     font-size: 30px;
-    color: rgba(0, 0, 0, 0.568)
+    color: rgb(255, 255, 255)
 }
 
 .list_elements{
     padding: 20px 30px 20px 30px;
     margin-top: 3%;
     margin-left: -20%;
-    background-color: #ffffff42;
+    background-color: rgba(32, 32, 32, 0.301);
     display: inline-block;
     border-radius: 14px;
+    transition: 0.3s ;
 
 }
+.main_text{
+    background-color: rgba(32, 32, 32, 0.301);
+    border-radius: 14px;
+    padding: 20px 30px 20px 30px;
+    transition: 0.4s;
+}
+.list_elements:hover{background-color: rgba(32, 32, 32, 0.500)}
+
+.main_text:hover{background-color: rgba(32, 32, 32, 0.500);}
