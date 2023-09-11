@@ -173,3 +173,36 @@ aside  img{
     background-color: #555;
 }
 /* -------------/SCROLL BAR----------------- */
+
+
+#main_page{
+    margin-left: 17%;
+    margin-top: -16%;
+    color: black;
+    font-size: 30px;
+    padding-bottom: 14%;
+}
+#main_page .main_subject{
+    color: rgba(0, 0, 0, 0.808);
+    font-size: 90px;
+}
+
+.subject{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.list{
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.568)
+}
+
+.list_elements{
+    padding: 20px 30px 20px 30px;
+    margin-top: 3%;
+    margin-left: -20%;
+    background-color: #ffffff42;
+    display: inline-block;
+    border-radius: 14px;
+
+}
