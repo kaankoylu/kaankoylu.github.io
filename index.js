@@ -214,7 +214,7 @@ faq_button.addEventListener("click" , () => {
          
 });
 
-document.getElementById("blog_button").addEventListener("click" , () => {
+blog_button.addEventListener("click" , () => {
 
     let parent_element_blog = document.getElementById("blog_card");
     parent_element_blog.classList.toggle("active");

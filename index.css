@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -203,15 +203,15 @@ aside  img{
 .list_elements{
     padding: 20px 30px 20px 30px;
     margin-top: 3%;
-    margin-left: -20%;
-    background-color: rgba(32, 32, 32, 0.301);
+    margin-left: 17%;
+    background-color: rgba(241, 241, 241, 0.13);
     display: inline-block;
     border-radius: 14px;
     transition: 0.3s ;
 
 }
 .main_text{
-    background-color: rgba(32, 32, 32, 0.301);
+    background-color: rgba(253, 253, 253, 0.137);
     border-radius: 14px;
     padding: 1% 1% 1% 1%;
     margin-right: 4%;
