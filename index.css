@@ -181,10 +181,12 @@ aside  img{
     color: rgb(255, 255, 255);
     font-size: 30px;
     padding-bottom: 14%;
+    transition: 0.1s;
 }
 #main_page .main_subject{
     color: rgb(255, 255, 255);
     font-size: 90px;
+    transition: 0.3;
     
 }
 
@@ -211,7 +213,8 @@ aside  img{
 .main_text{
     background-color: rgba(32, 32, 32, 0.301);
     border-radius: 14px;
-    padding: 20px 30px 20px 30px;
+    padding: 1% 1% 1% 1%;
+    margin-right: 4%;
     transition: 0.4s;
 }
 .list_elements:hover{background-color: rgba(32, 32, 32, 0.500)}

@@ -238,48 +238,66 @@ document.getElementById("blog_button").addEventListener("click" , () => {
 
 
 
-function display_function(){
+async function display_function(){
+
+    let parent_element_profile = document.getElementById("profile_card");
+    let parent_element_dashboard = document.getElementById("dashboard_card");
+    let parent_element_faq = document.getElementById("faq_card");
+    let parent_element_blog = document.getElementById("blog_card");
 
     if(parent_element_profile.classList.contains("active")){
+        console.log("profile active");
 
-        parent_element_dashboard.classList.remove("active");
-
-        parent_element_faq.classList.remove("active");
-
-        parent_element_blog.classList.remove("active");
+    }
+    else if (parent_element_dashboard.classList.contains("active")){
+        console.log("dashboard active");
 
 
     }
-    else if (parent_element_dashboard.contains("active")){
-
-        parent_element_profile.classList.remove("active");
-        parent_element_faq.classList.remove("active");
-        parent_element_blog.classList.remove("active");
+    else if (parent_element_faq.classList.contains("active")){
+        console.log("faq active");
 
     }
-    else if (parent_element_faq.contains("active")){
+    else if(parent_element_blog.classList.contains("active")){
 
-        parent_element_dashboard.classList.remove("active");
-        parent_element_profile.classList.remove("active");
-        parent_element_blog.classList.remove("active");
-    }
-    else if(parent_element_blog.contains("active")){
+        console.log("blog active");
 
-        parent_element_dashboard.classList.remove("active");
-        parent_element_profile.classList.remove("active");
-        parent_element_faq.classList.remove("active");
 
     }
     else{
+        console.log("nothing active");
+          let parent_element = document.getElementById("main_page");
+          let parent_element_update = `
+          
+          <div class="main_text">
+          <p class="main_subject">Welcome to the website.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu justo, 
+              mollis ac nibh at, pharetra vestibulum libero. Donec elit metus, 
+              hendrerit et convallis at, auctor et lacus. Pellentesque hendrerit 
+              justo mollis, hendrerit velit vitae, rutrum lorem. 
+              Suspendisse et diam ac odio eleifend sagittis pulvinar et elit. 
+              Ut luctus ultricies magna, nec laoreet augue efficitur ac. 
+              Quisque ullamcorper nunc in velit vehicula, 
+              vitae condimentum lacus pretium. Quisque odio tortor, 
+              aliquam vitae mi vitae, lobortis iaculis libero. Duis leo ex, 
+              dignissim at volutpat non, malesuada malesuada massa. 
+              Integer convallis, erat vitae dapibus ultrices, odio tellus blandit neque, 
+              vitae viverra eros mauris eu libero. Nam eu facilisis elit. 
+              Mauris vitae fermentum felis.</p>
+          </div>
+  
+          <div class="list_elements">
+              <li class="subject">The meainings of the icons are:</li>
+              <li class="list">Profile: Personal information can be found there</li>
+              <li class="list">Dashboard: There is a overview of the study.</li>
+              <li class="list">faq: Answers for the frequently asked questions.</li>
+              <li class="list">Blog: chronogical ordered blog posts.
+              </div>
+          `
 
-        parent_element_profile.classList.remove("active");
-        parent_element_dashboard.classList.remove("active");
-        parent_element_faq.classList.classList.remove("active");
-        parent_element_blog.classList.remove("active");
-
+          parent_element.innerHTML = parent_element_update;
 
     }
-
 
 }
 
