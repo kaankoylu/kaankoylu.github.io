@@ -63,6 +63,7 @@ dashboard_button.addEventListener("click" , () => {
                 <td>EC</td>
                 <td>Exams</td>
                 <td>Grade</td>
+                <td class "completion">Completion</td>
             </tr>
             <tr>
             <td rowspan="3">1</td>
@@ -70,6 +71,7 @@ dashboard_button.addEventListener("click" , () => {
                 <td>2.5</td>
                 <td>0</td>
                 <td>0</td>
+                <td class "completion"><input type="checkbox"></td>
                 
                 
             </tr>
@@ -78,6 +80,7 @@ dashboard_button.addEventListener("click" , () => {
                 <td>5</td>
                 <td></td>
                 <td>5.5</td>
+                <td class "completion"><input type="checkbox"></td>
             </tr>
             <tr>
 
@@ -85,13 +88,15 @@ dashboard_button.addEventListener("click" , () => {
                 <td>5</td>
                 <td></td>
                 <td>5.5</td>
+                <td class "completion"><input type="checkbox"></td>
             </tr>
             <tr>
             <td rowspan="9">2</td>
                 <td>The Object-Orianted programming</td>
                 <td>10</td>
                 <td></td>
-                <td>5.5</td> 
+                <td>5.5</td>
+                <td class "completion"><input type="checkbox"></td> 
             
             </tr>
             <tr>
@@ -99,34 +104,39 @@ dashboard_button.addEventListener("click" , () => {
                 <td>1.25</td>
                 <td></td>
                 <td>5.5</td> 
+                <td class "completion"><input type="checkbox"></td>
             
             </tr>
             <tr>
                 <td>Framework Project 2</td>
                 <td>10</td>
                 <td></td>
-                <td>5.5</td> 
+                <td>5.5</td>
+                <td class "completion"><input type="checkbox"></td> 
             
             </tr>
             <tr>
                 <td>Business IT consultancy Basics</td>
                 <td>2.5</td>
                 <td></td>
-                <td>5.5</td> 
+                <td>5.5</td>
+                <td class "completion"><input type="checkbox"></td> 
             
             </tr>
             <tr>
                 <td>PPDE</td>
                 <td>12.5</td>
                 <td></td>
-                <td>5.5</td> 
+                <td>5.5</td>
+                <td class "completion"><input type="checkbox"></td> 
             
             </tr>
             <tr>
             <td>IT personality project week 1</td>
             <td>1.25</td>
             <td></td>
-            <td>5.5</td> 
+            <td>5.5</td>
+            <td class "completion"><input type="checkbox"></td> 
     
             </tr>
             </tr>
@@ -134,21 +144,24 @@ dashboard_button.addEventListener("click" , () => {
             <td>IT personality international week</td>
             <td>1.25</td>
             <td></td>
-            <td>5.5</td> 
+            <td>5.5</td>
+            <td class "completion"><input type="checkbox"></td> 
     
             </tr>
             <tr>
             <td>IT personality 1</td>
             <td>1.25</td>
             <td></td>
-            <td>5.5</td> 
+            <td>5.5</td>
+            <td class "completion"><input type="checkbox"></td> 
     
             </tr>
             <tr>
             <td>IT personality 2</td>
             <td>1.25</td>
             <td></td>
-            <td>5.5</td> 
+            <td>5.5</td>
+            <td class "completion"><input type="checkbox"></td> 
     
             </tr>
 
@@ -185,20 +198,21 @@ faq_button.addEventListener("click" , () => {
                     </li>
                     <li>
                         <h2>How can you scan a document and send it to your laptop at HZ?</h2>
-                        <p>Answer2</p>
+                        <p>Go to <a href="">scan page</a>, login and proceed  </p>
                     </li>
                     <li>
                         <h2>How can I buy something (like when I sign up for the IT introduction event) on the HZ web shop?</h2>
-                        <p>Answer3</p>
+                        <p>you can buy it from,<a href="https://webshop.hz.nl/webshopapp/defaulten.aspx?menu=082076044027019251066025111065201099237062130097">here</a>
+                            
                     </li>
                     <li>
                         <h2>How can you book a project space in one of the wings?</h2>
-                        <p>Answer4</p>
+                        <p>it can easily booked from <a href="https://hzuniversity.topdesk.net/tas/public/ssp/content/detail/service?unid=7e54d40b762c4dc79205e200f0d4d818">here</a></p>
                     </li>
                     </li>
                     <li>
                         <h2>What are the instructions if you want to park your car at the HZ parking lot?</h2>
-                        <p>Answer5</p>
+                        <p><a href"https://hz.nl/en/about-hz/contact/middelburg">here</a> is the parking information!</p>
                     </li>
                 </ul>
             </div>
@@ -222,7 +236,7 @@ blog_button.addEventListener("click" , () => {
     if(parent_element_blog.classList.contains("active")){
         let child_update  = `
 
-        <h1> Under Maintenance</h1>
+        <h1> Blog page</h1>
         
         `
         parent_element_blog.innerHTML = child_update;
