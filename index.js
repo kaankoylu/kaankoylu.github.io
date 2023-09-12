@@ -241,24 +241,53 @@ blog_button.addEventListener("click" , () => {
     if(parent_element_blog.classList.contains("active")){aside_menu.classList.remove("active");
         let child_update  = `
 
-        <div class="motivation_part">
-        
-        <p class="question">Why ICT?
-        <p class="answer">i love creating things from 0</p>
+        <div class="post">
+                <h2>Motivation</h2>
+                    <div class="motivation_part">
+                        <p class="question">Why ICT?
+                        <p class="answer">i love creating things from 0</p>
 
-        <p class="question">Why am i love creating things?
-        <p class="answer">it makes me only person who has control</p>
+                        <p class="question">Why am i love creating things?
+                        <p class="answer">it makes me only person who has control</p>
 
-        <p class="question">Why i want control?
-        <p class="answer">it teaches me about avoiding mistakes</p>
+                        <p class="question">Why i want control?
+                        <p class="answer">it teaches me about avoiding mistakes</p>
 
-        <p class="question">Why i want avoiding mistakes?
-        <p class="answer">i want to be closest one to  perfect</p>
+                        <p class="question">Why i want avoiding mistakes?
+                        <p class="answer">i want to be closest one to  perfect</p>
 
-        <p class="question">Why i want to be closest one to be perfect?
-        <p class="answer">i believe trying to reach "perfect" is the most efficient way for develop my knowledge</p>
+                        <p class="question">Why i want to be closest one to be perfect?
+                        <p class="answer">i believe trying to reach "perfect" is the most efficient way for develop my knowledge</p>
 
+                    </div>
+            <div class="post_date">Posted on: September 12, 2023</div>
         </div>
+
+        <div class="post">
+                <h2>Programming experience</h2>
+                        <div class="post_content">
+                        <p>
+                        About the experiences i can clearly say that i ve tried some languages 
+                        such as(python,java,c) and never just stick to one of them and improve myself specifically in that language
+                        which is  i think one of the biggest mistakes i ve ever made. Also, i am actively developing myself about javascript and html/css.
+                        and this website is my 2nd big project.  
+                        </p>
+                        </div>
+            <div class="post_date">Posted on: September 10, 2023</div>
+        </div>
+        </div>
+        <div class="post">
+                <h2>First Feedback</h2>
+                    <div class="post_content">
+                        <p>
+                        First Feedback was about very "long" css file and approximately everyone liked main design of the website.
+                        as a result i ve splitted the css file to 2 different files so it actually made my work easy.
+                        </p>
+
+                    </div>
+            <div class="post_date">Posted on: September 8, 2023</div>
+
+        
         
         `
         parent_element_blog.innerHTML = child_update;
@@ -308,32 +337,43 @@ async function display_function(){
 
           let parent_element = document.getElementById("main_page");
           let parent_element_update = `
-          
           <div class="main_text">
-          <p class="main_subject">Welcome to the website.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec arcu justo, 
-              mollis ac nibh at, pharetra vestibulum libero. Donec elit metus, 
-              hendrerit et convallis at, auctor et lacus. Pellentesque hendrerit 
-              justo mollis, hendrerit velit vitae, rutrum lorem. 
-              Suspendisse et diam ac odio eleifend sagittis pulvinar et elit. 
-              Ut luctus ultricies magna, nec laoreet augue efficitur ac. 
-              Quisque ullamcorper nunc in velit vehicula, 
-              vitae condimentum lacus pretium. Quisque odio tortor, 
-              aliquam vitae mi vitae, lobortis iaculis libero. Duis leo ex, 
-              dignissim at volutpat non, malesuada malesuada massa. 
-              Integer convallis, erat vitae dapibus ultrices, odio tellus blandit neque, 
-              vitae viverra eros mauris eu libero. Nam eu facilisis elit. 
-              Mauris vitae fermentum felis.</p>
+            <p class="main_subject">Welcome to the website.</p>
+                <p>here is the quick informations about structure and content of the site:</p>
+                    <li>-i ve used javascript too so the interactions with buttons and cards appearances are made with js</li>
+                    <li>-Percentages are likely 54.6% javascript, 31.1% CSS and 14.3% HTML</li>
+                    <li>-Background image is temprory so colors anda image can be changed</li>
           </div>
-  
-          <div class="list_elements">
-              <li class="subject">The meainings of the icons are:</li>
-              <li class="list">Profile: Personal information can be found there</li>
-              <li class="list">Dashboard: There is a overview of the study.</li>
-              <li class="list">faq: Answers for the frequently asked questions.</li>
-              <li class="list">Blog: chronogical ordered blog posts.
-              </div>
-          `
+          <div class="list_elements" >
+
+                <li class="subject">The meanings of the icons are:</li>
+                <li class="list">Profile: Personal information can be found there</li>
+                <li class="list">Dashboard: There is a overview of the study.</li>
+                <li class="list">faq: Answers for the frequently asked questions.</li>
+                <li class="list">Blog: chronogical ordered blog posts.</li>
+
+          </div>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          `;
+          
           document.getElementById("aside_menu").classList.add("active");
         document.getElementById("aside_menu").innerHTML = `    
         <div class="main_subject">

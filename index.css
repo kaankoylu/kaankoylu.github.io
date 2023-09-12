@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #2b2b2b6c;
     background-image: url("images/background.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -188,6 +188,7 @@ aside  img{
     color: rgb(255, 255, 255);
     font-size: 90px;
     transition: 0.3;
+    margin-bottom: 14px;
     
 }
 
