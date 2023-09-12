@@ -12,6 +12,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
 
 }
 
@@ -30,7 +31,7 @@ li {
 }
 
 /* ----------------------UPPER PANEL------------------------ */
-.upper_panel {
+.top_bar {
 
     background-color: #ffffff17;
     color: white;
@@ -177,7 +178,7 @@ aside  img{
 
 #main_page{
     margin-left: 17%;
-    margin-top: -16%;
+    margin-top: 2%;
     color: rgb(255, 255, 255);
     font-size: 30px;
     padding-bottom: 14%;
@@ -202,17 +203,20 @@ aside  img{
 
 .list_elements{
     padding: 20px 30px 20px 30px;
-    margin-top: 3%;
-    margin-left: 17%;
-    background-color: rgba(241, 241, 241, 0.13);
+    margin-left: 0%;
+    background-color: rgba(253, 253, 253, 0.137);
     display: inline-block;
     border-radius: 14px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     transition: 0.3s ;
 
 }
 .main_text{
+    
     background-color: rgba(253, 253, 253, 0.137);
     border-radius: 14px;
+    border-bottom-left-radius: 0px;
     padding: 1% 1% 1% 1%;
     margin-right: 4%;
     transition: 0.4s;

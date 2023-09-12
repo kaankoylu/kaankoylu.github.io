@@ -3,7 +3,9 @@ const dashboard_button = document.getElementById("dashboard_button");
 const faq_button =  document.getElementById("faq_button");
 const blog_button = document.getElementById("blog_button");
 const main_page = document.getElementById("main_page");
+const aside_menu = document.getElementById("aside_menu");
 
+aside_menu.classList.add("active");
 
 profile_button.addEventListener("click" , () => {
         
@@ -14,7 +16,8 @@ profile_button.addEventListener("click" , () => {
 
         
 
-        if(parent_element_profile.classList.contains("active")){
+        if(parent_element_profile.classList.contains("active")){aside_menu.classList.remove("active");
+            
             let child_update  = `
 
                 <div class="container">
@@ -52,7 +55,7 @@ dashboard_button.addEventListener("click" , () => {
         parent_element_dashboard.classList.toggle("active");
         main_page.innerHTML=""
 
-        if(parent_element_dashboard.classList.contains("active")){
+        if(parent_element_dashboard.classList.contains("active")){aside_menu.classList.remove("active");
             let child_update  = `
             
             <table border="1">
@@ -186,7 +189,7 @@ faq_button.addEventListener("click" , () => {
         let parent_element_faq = document.getElementById("faq_card");
         parent_element_faq.classList.toggle("active");
         main_page.innerHTML=""
-        if(parent_element_faq.classList.contains("active")){
+        if(parent_element_faq.classList.contains("active")){aside_menu.classList.remove("active");
             let child_update  = `
             
             <div class="faq_content">
@@ -212,7 +215,9 @@ faq_button.addEventListener("click" , () => {
                     </li>
                     <li>
                         <h2>What are the instructions if you want to park your car at the HZ parking lot?</h2>
-                        <p><a href"https://hz.nl/en/about-hz/contact/middelburg">here</a> is the parking information!</p>
+                        <p>At the barrier of the car park the Poelendaelesingel you can ring the bell. After passing the barrier,
+                           follow the signs to the HZ parking places, marked with a white sign with the HZ logo.</p>
+                        <p>if student or staff: enter by presenting HZ pass at the barriers, guests can ring the bell at the barrier.
                     </li>
                 </ul>
             </div>
@@ -233,10 +238,27 @@ blog_button.addEventListener("click" , () => {
     let parent_element_blog = document.getElementById("blog_card");
     parent_element_blog.classList.toggle("active");
     main_page.innerHTML=""
-    if(parent_element_blog.classList.contains("active")){
+    if(parent_element_blog.classList.contains("active")){aside_menu.classList.remove("active");
         let child_update  = `
 
-        <h1> Blog page</h1>
+        <div class="motivation_part">
+        
+        <p class="question">Why ICT?
+        <p class="answer">i love creating things from 0</p>
+
+        <p class="question">Why am i love creating things?
+        <p class="answer">it makes me only person who has control</p>
+
+        <p class="question">Why i want control?
+        <p class="answer">it teaches me about avoiding mistakes</p>
+
+        <p class="question">Why i want avoiding mistakes?
+        <p class="answer">i want to be closest one to  perfect</p>
+
+        <p class="question">Why i want to be closest one to be perfect?
+        <p class="answer">i believe trying to reach "perfect" is the most efficient way for develop my knowledge</p>
+
+        </div>
         
         `
         parent_element_blog.innerHTML = child_update;
@@ -258,28 +280,32 @@ async function display_function(){
     let parent_element_dashboard = document.getElementById("dashboard_card");
     let parent_element_faq = document.getElementById("faq_card");
     let parent_element_blog = document.getElementById("blog_card");
-
-    if(parent_element_profile.classList.contains("active")){
+    let body = document.body;
+    if(parent_element_profile.classList.contains("active")){body.style.overflow = "auto";
+        
+        
         console.log("profile active");
+        document.getElementById("aside_menu").innerHTML ="";
 
     }
-    else if (parent_element_dashboard.classList.contains("active")){
+    else if (parent_element_dashboard.classList.contains("active")){body.style.overflow = "auto";
         console.log("dashboard active");
-
+        document.getElementById("aside_menu").innerHTML ="";
 
     }
-    else if (parent_element_faq.classList.contains("active")){
+    else if (parent_element_faq.classList.contains("active")){body.style.overflow = "auto";
         console.log("faq active");
-
+        document.getElementById("aside_menu").innerHTML ="";
     }
-    else if(parent_element_blog.classList.contains("active")){
+    else if(parent_element_blog.classList.contains("active")){body.style.overflow = "auto";
 
         console.log("blog active");
-
+        document.getElementById("aside_menu").innerHTML ="";
 
     }
-    else{
+    else{body.style.overflow = "hidden";
         console.log("nothing active");
+
           let parent_element = document.getElementById("main_page");
           let parent_element_update = `
           
@@ -308,6 +334,24 @@ async function display_function(){
               <li class="list">Blog: chronogical ordered blog posts.
               </div>
           `
+          document.getElementById("aside_menu").classList.add("active");
+        document.getElementById("aside_menu").innerHTML = `    
+        <div class="main_subject">
+        <img src="images/hz_logo.png">
+        </div>
+        <ul>
+        <li><a href="https://hz.nl">HZ home</a></li>
+        <li><a href="https://hz.nl/en/about-hz/organisation/regulations-and-documents#panel1945070">HZ documents</a></li>
+        <li><a href="https://learn.hz.nl/">HZ learn</a></li>
+        <li><a href="https://hz.osiris-student.nl/">HZ osiris</a></li>
+        <li><a href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c">ICT teams(algeemen)</a></li>
+        <li><a href="https://github.com/HZ-HBO-ICT">ICT github</a></li>
+        </ul>
+        
+        `
+
+
+
 
           parent_element.innerHTML = parent_element_update;
 

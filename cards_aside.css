@@ -2,19 +2,20 @@
     color: azure;
     background-color: rgba(90, 84, 4, 0.226);
     border-radius: 20px;
-    padding: 2% 1%; 
+    padding: 2% 30px;
     transition: 0.4s;
     backdrop-filter: blur(7px);
-    width: 80%; 
-    margin-top: -15%; 
-    margin-left: 16.5%; 
+    margin-top: -14%; 
+    margin-left: 40px;
+    margin-right: 40px;
+     
 }
 
 #dashboard_card.active{
     color: azure;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 100px;
+    margin-top: 2%;
     background-color: rgba(4, 109, 69, 0.226);
     border-radius: 9px;
     padding-bottom: 5%;
@@ -31,7 +32,7 @@
     color: azure;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 100px;
+    margin-top: 2%;
     background-color: rgba(7, 73, 216, 0.226);
     border-radius: 9px;
     padding-bottom: 4%;
@@ -46,7 +47,7 @@
     color: azure;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 100px;
+    margin-top: 2%;
     background-color: rgba(5, 245, 185, 0.226);
     border-radius: 20px;
     padding-bottom: 6%;
@@ -167,21 +168,23 @@ table {
     background-color:  rgba(248, 248, 248, 0.295);
   }
   
+  
 /* ASIDE BAR */
 
 
-aside {
+aside.active {
     background-color: #ffffff17;
     color: #fff; 
-    padding: 20px; /* Spacing inside the aside bar */
-    width: 250px; /* Width of the aside bar */
-    position: sticky;
-    top: 0;
-    z-index: 1; /* Ensure the aside bar appears above the cards */
+    padding: 20px; 
+    width: 250px; 
+    position: fixed;
+    top: 15.3%;
+    z-index: 1; 
     border-bottom-right-radius: 14px;
     border-bottom-left-radius: 14px;
     display: inline-block;
     text-align: left;
+    ;
 
 }
 
@@ -206,11 +209,18 @@ aside li {
     display: flex;
     justify-content: space-between;
     align-items: left;
-    padding: 10px 20px; /* Adjust padding as needed */
-    cursor: pointer;
+    padding: 10px 20px; 
+    
     transition: 0.3s;
 }
 
-aside li:hover {
-    background-color: rgba(44, 165, 245, 0.123); /* Add a hover effect */
+.motivation_part .question {
+    font-size: 50px;
+    color: rgb(255, 255, 255);    
 }
+.motivation_part .answer{
+    font-size: 40px;
+    color: rgb(6, 122, 2);
+
+}
+
