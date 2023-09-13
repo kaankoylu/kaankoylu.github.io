@@ -228,3 +228,11 @@ aside  img{
 .main_text:hover{background-color: rgba(32, 32, 32, 0.500);}
 
 
+.swot_subject{
+
+    color: white;
+}
+.swot_content li{
+    font-size: 25px;
+    color: black;
+}

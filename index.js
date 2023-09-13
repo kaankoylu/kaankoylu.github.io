@@ -300,18 +300,18 @@ blog_button.addEventListener("click" , () => {
         <h2>SWOT</h2>
             <div class="post_content">
 
-                <ol>
-                    <p>Strengths:</p>
+                <ol class="swot_content">
+                    <p class="swot_subject">Strengths:</p>
 
-                    <li>Leadership: i have experiences in team working so i can easily navigate the team to the point</li>
+                    <li>Leadership: i have experiences in team working so i believe  i can control groups/li>
                     <li>Problem Solver: if i can get deep root of problem probably i can solve it with different ways</li>
                     <li>Empathy: i am unconsiously making empathy so i can easily understand the team members mental status </li>
                     <li>Positive Attitude: i ve experienced that if tension arises success rate is decreasing the same way, so i am always positive even in the worst case scenarios </li>
 
                 </ol>
 
-                <ol>
-                    <p>Weaknesses:</p>
+                <ol class="swot_content">
+                    <p class="swot_subject">Weaknesses:</p>
 
                     <li>Critical Decisions: critical times needs hardwork, sometimes i am ignoring the whole mentality and tireness of the group and force myself in to excessive working </li>
                     <li>Competetion: my competitive nature can make it difficult for me to collaborate effectively with others.
@@ -320,18 +320,18 @@ blog_button.addEventListener("click" , () => {
 
                 </ol>
 
-                <ol>
-                    <p>Opportunities:</p>
+                <ol class="swot_content">
+                    <p class="swot_subject">Opportunities:</p>
 
                     
                     <li>Online Coding Communities</li>
 
                 </ol>
 
-                <ol>
-                    <p>Threats:</p>
+                <ol class="swot_content">
+                    <p class="swot_subject">Threats:</p>
 
-                    <li>Overthinking: Thinking deep is sometimes makes me passive for a small amount of times. </li>
+                    <li>Overthinking: Thinking detailed about a subject distracts me for a small amount of time</li>
                     
 
                 </ol>
