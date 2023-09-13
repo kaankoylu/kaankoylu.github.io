@@ -39,10 +39,10 @@ profile_button.addEventListener("click" , () => {
 
                     <div class="about">
                     <h2>About me:</h2>
-                        <p> After my education about cyber security i ve discovered that im actually like coding,</p>
-                        <p> and then i started to code around 2021 but i never stick to the one lanugage so i ve just tried couple of them and stopped.</p>
-                        <p> After a long time i ve decided to come back to coding with html/css +js and since that time im developing</p>
-                        <p> myself to become a software engineer.</p>
+                        <p> After my education about cyber security i ve discovered that im actually like coding,
+                         and then i started to code around 2021 but i never stick to the one lanugage so i ve just tried couple of them and stopped.
+                         After a long time i ve decided to come back to coding with html/css +js and since that time 
+                        im developing myself to become a software engineer.</p>
                     </div>
 
                 </div>
@@ -303,10 +303,10 @@ blog_button.addEventListener("click" , () => {
                 <ol>
                     <p>Strengths:</p>
 
-                    <li>Leadership: i have experiencesin team working so i can easily navigate the team to the direct point</li>
-                    <li>Problem Solver: if i can get deep root of problem i can solve it with different ways</li>
-                    <li>Empathy: i am unconsiously always making empathy so i can easily understand the team members mental situation </li>
-                    <li>Positive Attitude: i ve experienced that if tension arises success rate is decreasing the same way, so i am always positive even in the worst scenarios </li>
+                    <li>Leadership: i have experiences in team working so i can easily navigate the team to the point</li>
+                    <li>Problem Solver: if i can get deep root of problem probably i can solve it with different ways</li>
+                    <li>Empathy: i am unconsiously making empathy so i can easily understand the team members mental status </li>
+                    <li>Positive Attitude: i ve experienced that if tension arises success rate is decreasing the same way, so i am always positive even in the worst case scenarios </li>
 
                 </ol>
 
@@ -315,8 +315,8 @@ blog_button.addEventListener("click" , () => {
 
                     <li>Critical Decisions: critical times needs hardwork, sometimes i am ignoring the whole mentality and tireness of the group and force myself in to excessive working </li>
                     <li>Competetion: my competitive nature can make it difficult for me to collaborate effectively with others.
-                    I may focus too much on outperforming others rather than working collaboratively towards shared goals</li>
-                    <li>Excessive working: in my free times i love working but sometimes i can just forgot the outside and focusing to working.</li>
+                    I may focus too much to perfection.</li>
+                    <li>Excessive working: i love valuing my free times with working and sometimes i may lose the controls and work more then need</li>
 
                 </ol>
 
@@ -347,7 +347,7 @@ blog_button.addEventListener("click" , () => {
                         <p>
                             About the experiences i can clearly say that i ve tried some languages 
                             such as python,java,c but never just stick to one of them and improve myself specifically in that language.
-                            which isi think one of the biggest mistakes i ve ever made. Also, i am actively developing myself about javascript and html/css.
+                            which is i think one of the biggest mistakes i ve ever made. Also, i am actively developing myself about javascript and html/css.
                             and this website is my 2nd big project.  
                         </p>
                         </div>
