@@ -31,29 +31,29 @@ li {
 }
 
 /* ----------------------UPPER PANEL------------------------ */
-.top_bar {
+    .top_bar {
 
-    background-color: #ffffff17;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    user-select: none;
-}
+        background-color: #ffffff17;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        user-select: none;
+    }
 
 
-.main_label h1 {
+    .main_label h1 {
 
-    font-size: 50px;
-    margin: 0;
-    transition: 0.3s;
-}
+        font-size: 50px;
+        margin: 0;
+        transition: 0.3s;
+    }
 
-.main_label:hover {
+    .main_label:hover {
 
-    color: rgba(140, 0, 255, 0.349);
-}
+        color: rgba(140, 0, 255, 0.349);
+    }
 
 /* -----------------/UPPER PANEL---------------------- */
 
@@ -74,6 +74,7 @@ li {
     font-size: 20px;
     border-style:hidden;
 }
+
 
 .buttons button:hover {
     

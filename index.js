@@ -197,20 +197,33 @@ faq_button.addEventListener("click" , () => {
                 <ul>
                     <li>
                         <h2>How can you print a document from your laptop at HZ?</h2>
-                        <p>Go to <a href="https://print.hz.nl">print page</a>, select the file and proceed  </p>
+                        <p> • Select the following printer for your job: HZ Printer</p>
+                        <p> • When the print job is given, log in using the HZ pass or by entering your HZ username & password.</p>
+
+                        <p> •Then choose the Print Release option. You will then see which print jobs are ready. If there is sufficient balance in your print account,
+                             the print jobs will be printed. Tap Access Device to see your balance. After printing, tap the following icon on the printer to log out:</p>
                     </li>
                     <li>
                         <h2>How can you scan a document and send it to your laptop at HZ?</h2>
-                        <p>Go to <a href="">scan page</a>, login and proceed  </p>
-                    </li>
-                    <li>
-                        <h2>How can I buy something (like when I sign up for the IT introduction event) on the HZ web shop?</h2>
-                        <p>you can buy it from,<a href="https://webshop.hz.nl/webshopapp/defaulten.aspx?menu=082076044027019251066025111065201099237062130097">here</a>
+                        <p>• Log on to the printer using your HZ card or by entering your HZ user name & password.</p>
+                        <p>• Choose the Scan option in the menu.</p>
+                        <p>• Place the original(s) on the feeder or glass plate.</p>
+
+                        <p> Double-sided scanning (optional)</p>
+                        <p>• Press Change settings</p>
+                        <p>• For duplex mode, select the 2-sided option</p>
+
+                        <p>• Press Start</p>
+                        <p>• After scanning, press the following symbol on the printer to log off:</p>
                             
                     </li>
                     <li>
+                        <h2>How can I buy something (like when I sign up for the IT introduction event) on the HZ web shop?</h2>
+                        <p>you can buy it from,<a target="_blank" href="https://webshop.hz.nl/webshopapp/defaulten.aspx?menu=082076044027019251066025111065201099237062130097">here</a>                            
+                    </li>
+                    <li>
                         <h2>How can you book a project space in one of the wings?</h2>
-                        <p>it can easily booked from <a href="https://hzuniversity.topdesk.net/tas/public/ssp/content/detail/service?unid=7e54d40b762c4dc79205e200f0d4d818">here</a></p>
+                        <p>it can easily booked from <a target="_blank" href="https://hzuniversity.topdesk.net/tas/public/ssp/content/detail/service?unid=7e54d40b762c4dc79205e200f0d4d818">here</a></p>
                     </li>
                     </li>
                     <li>
@@ -267,10 +280,10 @@ blog_button.addEventListener("click" , () => {
                 <h2>Programming experience</h2>
                         <div class="post_content">
                         <p>
-                        About the experiences i can clearly say that i ve tried some languages 
-                        such as(python,java,c) and never just stick to one of them and improve myself specifically in that language
-                        which is  i think one of the biggest mistakes i ve ever made. Also, i am actively developing myself about javascript and html/css.
-                        and this website is my 2nd big project.  
+                            About the experiences i can clearly say that i ve tried some languages 
+                            such as python,java,c but never just stick to one of them and improve myself specifically in that language.
+                            which isi think one of the biggest mistakes i ve ever made. Also, i am actively developing myself about javascript and html/css.
+                            and this website is my 2nd big project.  
                         </p>
                         </div>
             <div class="post_date">Posted on: September 10, 2023</div>
