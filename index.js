@@ -26,6 +26,7 @@ profile_button.addEventListener("click" , () => {
                     <img src="images/profile_sisyphus.png" width="500" height="500">
                 </div>
                 <div class="characteristics">
+                    <div class="list">
                     <h2><h1>Characteristics:</h1></h2>
                     <ol>
                         <li><h2><p>Friendly</p></h2></li>
@@ -34,6 +35,20 @@ profile_button.addEventListener("click" , () => {
                         <li><h2><p>Adaptable</p></h2></li>
                         <li><h2><p>Philosophy</p></li>
                     </ol>
+                    </div>
+
+                    <div class="about">
+                    <h2>About me:</h2>
+                        <p> After my education about cyber security i ve discovered that im actually like coding,</p>
+                        <p> and then i started to code around 2021 but i never stick to the one lanugage so i ve just tried couple of them and</p>
+                        <p>stopped. After a long time i ve decided to come back to coding with html/css +js and since that time im developing</p>
+                        <p> myself to become a software engineer.</p>
+                    </div>
+
+                    
+
+
+
                 </div>
             </div>
         
@@ -170,9 +185,13 @@ dashboard_button.addEventListener("click" , () => {
 
 
             </table>
+            <div class = "progress_bar">
 
-            <p><h1>The values are temprory</h1></p> 
+            <progress value="50" max="100"> </progress>
 
+            </div>
+
+             
             `
             parent_element_dashboard.innerHTML = child_update;
         }
