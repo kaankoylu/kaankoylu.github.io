@@ -40,14 +40,10 @@ profile_button.addEventListener("click" , () => {
                     <div class="about">
                     <h2>About me:</h2>
                         <p> After my education about cyber security i ve discovered that im actually like coding,</p>
-                        <p> and then i started to code around 2021 but i never stick to the one lanugage so i ve just tried couple of them and</p>
-                        <p>stopped. After a long time i ve decided to come back to coding with html/css +js and since that time im developing</p>
+                        <p> and then i started to code around 2021 but i never stick to the one lanugage so i ve just tried couple of them and stopped.</p>
+                        <p> After a long time i ve decided to come back to coding with html/css +js and since that time im developing</p>
                         <p> myself to become a software engineer.</p>
                     </div>
-
-                    
-
-
 
                 </div>
             </div>
@@ -84,7 +80,7 @@ dashboard_button.addEventListener("click" , () => {
                 <td class "completion">Completion</td>
             </tr>
             <tr>
-            <td rowspan="3">1</td>
+            <td rowspan="3">quartile 1</td>
                 <td>Program & Career Oriantation</td>
                 <td>2.5</td>
                 <td>0</td>
@@ -109,7 +105,7 @@ dashboard_button.addEventListener("click" , () => {
                 <td class "completion"><input type="checkbox"></td>
             </tr>
             <tr>
-            <td rowspan="9">2</td>
+            <td rowspan="1">quartile 2</td>
                 <td>The Object-Orianted programming</td>
                 <td>10</td>
                 <td></td>
@@ -118,19 +114,12 @@ dashboard_button.addEventListener("click" , () => {
             
             </tr>
             <tr>
+                <td rowspan="2">quartile 3</td>
                 <td>Framework Project</td>
                 <td>1.25</td>
                 <td></td>
                 <td>5.5</td> 
                 <td class "completion"><input type="checkbox"></td>
-            
-            </tr>
-            <tr>
-                <td>Framework Project 2</td>
-                <td>10</td>
-                <td></td>
-                <td>5.5</td>
-                <td class "completion"><input type="checkbox"></td> 
             
             </tr>
             <tr>
@@ -141,6 +130,16 @@ dashboard_button.addEventListener("click" , () => {
                 <td class "completion"><input type="checkbox"></td> 
             
             </tr>
+            <tr>
+                <td rowspan="6">quartile 4</td>
+                <td>Framework Project 2</td>
+                <td>10</td>
+                <td></td>
+                <td>5.5</td>
+                <td class "completion"><input type="checkbox"></td> 
+            
+            </tr>
+            
             <tr>
                 <td>PPDE</td>
                 <td>12.5</td>
@@ -273,6 +272,7 @@ blog_button.addEventListener("click" , () => {
     if(parent_element_blog.classList.contains("active")){aside_menu.classList.remove("active");
         let child_update  = `
 
+        
         <div class="post">
                 <h2>Motivation</h2>
                     <div class="motivation_part">
@@ -294,6 +294,52 @@ blog_button.addEventListener("click" , () => {
                     </div>
             <div class="post_date">Posted on: September 12, 2023</div>
         </div>
+
+
+        <div class="post">
+        <h2>SWOT</h2>
+            <div class="post_content">
+
+                <ol>
+                    <p>Strengths:</p>
+
+                    <li>Leadership: i have experiencesin team working so i can easily navigate the team to the direct point</li>
+                    <li>Problem Solver: if i can get deep root of problem i can solve it with different ways</li>
+                    <li>Empathy: i am unconsiously always making empathy so i can easily understand the team members mental situation </li>
+                    <li>Positive Attitude: i ve experienced that if tension arises success rate is decreasing the same way, so i am always positive even in the worst scenarios </li>
+
+                </ol>
+
+                <ol>
+                    <p>Weaknesses:</p>
+
+                    <li>Critical Decisions: critical times needs hardwork, sometimes i am ignoring the whole mentality and tireness of the group and force myself in to excessive working </li>
+                    <li>Competetion: my competitive nature can make it difficult for me to collaborate effectively with others.
+                    I may focus too much on outperforming others rather than working collaboratively towards shared goals</li>
+                    <li>Excessive working: in my free times i love working but sometimes i can just forgot the outside and focusing to working.</li>
+
+                </ol>
+
+                <ol>
+                    <p>Opportunities:</p>
+
+                    
+                    <li>Online Coding Communities</li>
+
+                </ol>
+
+                <ol>
+                    <p>Threats:</p>
+
+                    <li>Overthinking: Thinking deep is sometimes makes me passive for a small amount of times. </li>
+                    
+
+                </ol>
+
+
+            </div>
+    <div class="post_date">Posted on: September 12, 2023</div>
+    </div>
 
         <div class="post">
                 <h2>Programming experience</h2>
@@ -318,6 +364,8 @@ blog_button.addEventListener("click" , () => {
 
                     </div>
             <div class="post_date">Posted on: September 8, 2023</div>
+        </div>
+                
 
         
         
