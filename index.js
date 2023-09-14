@@ -274,7 +274,7 @@ blog_button.addEventListener("click" , () => {
 
         
         <div class="post">
-                <h2>Motivation</h2>
+                <h2>Motivation</h2><button class="read_more" id="blog_read">read more</button>
                     <div class="motivation_part">
                         <p class="question">Why ICT?
                         <p class="answer">i love creating things from 0</p>
@@ -297,7 +297,7 @@ blog_button.addEventListener("click" , () => {
 
 
         <div class="post">
-        <h2>SWOT</h2>
+        <h2>SWOT</h2><button class="read_more" id="blog_read">read more</button>
             <div class="post_content">
 
                 <ol class="swot_content">
@@ -342,7 +342,7 @@ blog_button.addEventListener("click" , () => {
     </div>
 
         <div class="post">
-                <h2>Programming experience</h2>
+                <h2>Programming experience</h2><button class="read_more" id="blog_read">read more</button>
                         <div class="post_content">
                         <p>
                             About the experiences i can clearly say that i ve tried some languages 
@@ -355,7 +355,7 @@ blog_button.addEventListener("click" , () => {
         </div>
         </div>
         <div class="post">
-                <h2>First Feedback</h2>
+                <h2>First Feedback</h2><button class="read_more" id="blog_read">read more</button>
                     <div class="post_content">
                         <p>
                         First Feedback was about very "long" css file and approximately everyone liked main design of the website.

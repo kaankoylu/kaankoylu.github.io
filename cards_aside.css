@@ -295,6 +295,27 @@ aside li {
     margin-left: 20px;
     
 }
+.post h2{display: inline-block;}
+
+.read_more{
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    background-color: #e7e7e733;
+    color: white;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-left: 1%;
+    margin-top: -11%;
+    display: inline-block;
+    transition: 0.3s;
+}
+.read_more:hover{
+    background-color: rgba(6, 88, 99, 0);
+    color: black;
+}
 
 
 
