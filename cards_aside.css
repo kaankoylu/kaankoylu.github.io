@@ -5,7 +5,7 @@
     padding: 2% 30px;
     transition: 0.4s;
     backdrop-filter: blur(7px);
-    margin-top: -14%; 
+    margin-top: 2%; 
     margin-left: 40px;
     margin-right: 40px;
      
@@ -208,12 +208,12 @@ table {
 /* ASIDE BAR */
 
 
-aside.active {
-    background-color: #ffffff17;
+aside {
+    background-color: #ffffff17;;
     color: #fff; 
     padding: 20px; 
     width: 250px; 
-    position: fixed;
+    position:absolute;
     top: 15.3%;
     z-index: 1; 
     border-bottom-right-radius: 14px;
