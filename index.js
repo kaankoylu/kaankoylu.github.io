@@ -80,24 +80,4 @@ function hideAside(element){
             document.getElementById("main_page").style.display = "block";
         }
     };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
