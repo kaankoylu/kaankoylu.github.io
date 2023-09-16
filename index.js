@@ -4,7 +4,6 @@ const faq_button = document.getElementById("faq_button");
 const blog_button = document.getElementById("blog_button");
 
 profile_button.addEventListener("click", () => {
-    
     let profile_card = document.getElementById("profile_card");
             profile_card.classList.toggle("active");
                 if (profile_card.classList.contains("active")) {
@@ -55,25 +54,31 @@ blog_button.addEventListener("click", () => {
                 }
 });
 
-
-
 function showHidden(element) {
     element.style.display = "block";
 }
-
 function hideElement(element) {
     element.style.display = "none";
 }
 function hideAside(element){
-
     if(element.classList.contains("active")){
-
         document.getElementById("aside_menu").style.display= "none";
         document.getElementById("main_page").style.display = "none"
     }
     else{
-        document.getElementById("aside_menu").style.display = "block";
-        document.getElementById("main_page").style.display = "block";
+        let profile = document.getElementById("profile_card");
+        let dashboard = document.getElementById("dashboard_card");
+        let faq = document.getElementById("faq_card");
+        let blog = document.getElementById("blog_card");
+
+        if(profile.classList.contains("active")||dashboard.classList.contains("active")||faq.classList.contains("active")||blog.classList.contains("active")){
+            document.getElementById("aside_menu").style.display= "none";
+            document.getElementById("main_page").style.display = "none";
+        }
+        else{
+            document.getElementById("aside_menu").style.display= "block";
+            document.getElementById("main_page").style.display = "block";
+        }
     };
 
 
