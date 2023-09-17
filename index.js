@@ -30,8 +30,8 @@ faq_button.addEventListener("click" , () => {
     let faq_card = document.getElementById("faq_card");
             faq_card.classList.toggle("active");
                 if(faq_card.classList.contains("active")){
-                        showHidden(faq_card);
-                        hideAside(faq_card);
+                    showHidden(faq_card);
+                    hideAside(faq_card);
                 }
                 else{
                     hideElement(faq_card);
@@ -42,11 +42,12 @@ blog_button.addEventListener("click", () => {
     let blog_card = document.getElementById("blog_card");
             blog_card.classList.toggle("active");    
                 if (blog_card.classList.contains("active")) {
-                        showHidden(blog_card);
-                        hideAside(blog_card);
-                } else {
-                        hideElement(blog_card);
-                        hideAside(blog_card);
+                    showHidden(blog_card);
+                    hideAside(blog_card);
+                }
+                else{
+                    hideElement(blog_card);
+                    hideAside(blog_card);
                 }
 });
 

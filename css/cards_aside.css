@@ -10,7 +10,7 @@
 }
 #profile_card.active {
     color: azure;
-    background-color: rgba(90, 84, 4, 0.226);
+    background-color: rgba(145, 6, 6, 0.301);
     border-radius: 20px;
     padding: 2% 30px;
     transition: 0.4s;
@@ -108,7 +108,7 @@
 
 .characteristics .about{
     
-    background-color:  rgba(60, 61, 0, 0.205);
+    background-color:  rgba(145, 6, 6, 0.336);
     display: inline-block;
     width: 75%;
     margin-left: 25%;
@@ -215,7 +215,7 @@ table {
 
 
 aside {
-    background-color: #ffffff17;;
+    background-color: #00000071;;
     color: #fff; 
     padding: 20px; 
     width: 250px; 
