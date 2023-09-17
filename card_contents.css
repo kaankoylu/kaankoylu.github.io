@@ -11,10 +11,26 @@
     transition: background-color 0.3s ease-in-out;
 }
 .close_button:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha value for the desired hover effect */
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 .close_button img{
-
+    padding: 1px;
     width: 40px;
     height: 40px;
+}
+
+#feedback_content_active{
+    animation: fadeIn 1s ease;
+}
+#motivation_content_active{
+    animation: fadeIn 1s ease;
+}
+#swot_content_read{
+    animation: fadeIn 1s ease;
+}
+#experience_content_active{
+    animation: fadeIn 1s ease;
+}
+#first_content_active{
+    animation: fadeIn 1s ease;
 }

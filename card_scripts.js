@@ -26,7 +26,7 @@ document.getElementById("blog_card_closer").addEventListener("click" , () =>{
     hideAside(blog_card)
 });
 
-//BLOG PAGE READD MORE FUNCTION
+//BLOG PAGE READ MORE FUNCTION
 
 
 document.getElementById("feedback_blog_read").addEventListener("click", () => {
