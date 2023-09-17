@@ -1,0 +1,58 @@
+/* CLOSE BUTTON  */
+.close_button {
+    position: absolute;
+    top: 15px; 
+    right: 15px; 
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+.close_button img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.close_button img:hover {
+    background-color: rgba(119, 1, 1, 0.514);
+}
+/* BLOG POSTS */
+#feedback_content_active{
+    animation: fadeIn 1s ease;
+}
+#motivation_content_active{
+    animation: fadeIn 1s ease;
+}
+#swot_content_read{
+    animation: fadeIn 1s ease;
+}
+#experience_content_active{
+    animation: fadeIn 1s ease;
+}
+#first_content_active{
+    animation: fadeIn 1s ease;
+}
+.read_more{
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    background-color: #e7e7e700;
+    color: white;
+    text-decoration: underline;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-left: 1%;
+    margin-top: -11%;
+    display: inline-block;
+    transition: 0.6s;
+}
+.read_more:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+    color: black;
+}
+/*   */

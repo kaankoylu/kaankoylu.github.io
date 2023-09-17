@@ -31,23 +31,23 @@ document.getElementById("blog_card_closer").addEventListener("click" , () =>{
 
 document.getElementById("feedback_blog_read").addEventListener("click", () => {
     let content = document.getElementById("feedback_content_active");
-    displayBlogContent(content)
+    displayBlogContent(content);
 });
 document.getElementById("blog_motivation_read").addEventListener("click", () => {
     let content = document.getElementById("motivation_content_active");
-    displayBlogContent(content)
+    displayBlogContent(content);
 });
 document.getElementById("blog_swot_read").addEventListener("click", () => {
     let content = document.getElementById("swot_content_read");
-    displayBlogContent(content)
+    displayBlogContent(content);
 });
 document.getElementById("blog_experience_read").addEventListener("click", () => {
     let content = document.getElementById("experience_content_active");
-    displayBlogContent(content)
+    displayBlogContent(content);
 });
 document.getElementById("blog_first_read").addEventListener("click", () => {
     let content = document.getElementById("first_content_active");
-    displayBlogContent(content)
+    displayBlogContent(content);
 });
 
 function displayBlogContent(element){
