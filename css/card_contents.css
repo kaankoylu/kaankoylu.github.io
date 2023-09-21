@@ -21,19 +21,7 @@
     background-color: rgba(119, 1, 1, 0.514);
 }
 /* BLOG POSTS */
-#feedback_content_active{
-    animation: fadeIn 1s ease;
-}
-#motivation_content_active{
-    animation: fadeIn 1s ease;
-}
-#swot_content_read{
-    animation: fadeIn 1s ease;
-}
-#experience_content_active{
-    animation: fadeIn 1s ease;
-}
-#first_content_active{
+#feedback_content_active,#motivation_content_active,#swot_content_read,#experience_content_active,#first_content_active{
     animation: fadeIn 1s ease;
 }
 .read_more{
@@ -55,4 +43,30 @@
     background-color: rgba(255, 255, 255, 0.103);
     color: black;
 }
-/*   */
+
+/* FAQ ANSWER */
+#question_1,#question_2,#question_3,#question_4,#question_5{
+    cursor: pointer; 
+    transition: 0.3s;
+}
+#question_1:hover,#question_2:hover,#question_3:hover,#question_4:hover,#question_5:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+    color: rgba(255, 255, 255, 0.767);
+}
+.answer_content{
+    animation: fadeIn 1s ease;
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+

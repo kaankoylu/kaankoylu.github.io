@@ -50,7 +50,6 @@ blog_button.addEventListener("click", () => {
                     hideAside(blog_card);
                 }
 });
-
 function showHidden(element) {
     element.style.display = "block";
 }
@@ -78,3 +77,14 @@ function hideAside(element){
         }
     };
 }
+
+
+
+
+
+
+
+
+
+
+
