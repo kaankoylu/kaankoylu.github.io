@@ -25,7 +25,7 @@ document.getElementById("blog_card_closer").addEventListener("click" , () =>{
 });
 //DASHBOARD PAGE PROGRESS BAR SCRIPT
 const checkboxes = document.querySelectorAll(".completion input[type='checkbox']");
-const progressBar = document.getElementById("progress-bar");            
+const progressBar = document.getElementById("progress_bar");            
     let checkedCount = 0;
         checkboxes.forEach(checkbox => {checkbox.addEventListener("change", function() {
             if (this.checked) {
