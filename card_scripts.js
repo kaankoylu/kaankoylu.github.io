@@ -119,23 +119,3 @@ function answerDisplay(element){
         element.style.display = "none";
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
