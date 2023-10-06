@@ -20,6 +20,14 @@
 .close_button img:hover {
     background-color: rgba(119, 1, 1, 0.514);
 }
+/* DASHBOARD PAGE */
+.progress_bar {
+    height: 20px;
+    background-color: rgb(20, 92, 50);
+    width: 0;
+    margin-top: 10px;
+    transition: 0.5s;
+}
 /* BLOG POSTS */
 #feedback_content_active,#motivation_content_active,#swot_content_read,#experience_content_active,#first_content_active{
     animation: fadeIn 1s ease;

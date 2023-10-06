@@ -23,7 +23,32 @@ document.getElementById("blog_card_closer").addEventListener("click" , () =>{
             blog_card.style.display = "none";
                 hideAside(blog_card)
 });
-
+//DASHBOARD PAGE PROGRESS BAR SCRIPT
+const checkboxes = document.querySelectorAll(".completion input[type='checkbox']");
+const progressBar = document.getElementById("progress-bar");            
+    let checkedCount = 0;
+        checkboxes.forEach(checkbox => {checkbox.addEventListener("change", function() {
+            if (this.checked) {
+                checkedCount++;
+            } else {
+                checkedCount--;
+            }
+                const percentCalculation = (checkedCount / checkboxes.length) * 100;
+                progressBar.style.width = percentCalculation + "%";
+                if(percentCalculation <= 25){
+                    progressBar.style.backgroundColor = "black";
+                } 
+                else if(percentCalculation <=50){
+                    progressBar.style.backgroundColor = "red";
+                }
+                else if(percentCalculation <= 75){
+                    progressBar.style.background = "orange";
+                }
+                else{
+                    progressBar.style.backgroundColor = "green";
+                }
+                });
+            });
 //BLOG PAGE READ MORE FUNCTION
 document.getElementById("feedback_blog_read").addEventListener("click", () => {
     let content = document.getElementById("feedback_content_active");
