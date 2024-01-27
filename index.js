@@ -3,53 +3,25 @@ const dashboard_button = document.getElementById("dashboard_button");
 const faq_button = document.getElementById("faq_button");
 const blog_button = document.getElementById("blog_button");
 
-profile_button.addEventListener("click", () => {
-    let profile_card = document.getElementById("profile_card");
-            profile_card.classList.toggle("active");
-                if (profile_card.classList.contains("active")) {
-                    showHidden(profile_card);
-                    hideAside(profile_card);
-                } else {
-                    hideElement(profile_card);
-                    hideAside(profile_card);
-                }
-});
-dashboard_button.addEventListener("click", () => {
-    let dashboard_card = document.getElementById("dashboard_card");
-            dashboard_card.classList.toggle("active");
-                if(dashboard_card.classList.contains("active")){
-                    showHidden(dashboard_card);
-                    hideAside(dashboard_card);
-                }
-                else{
-                    hideElement(dashboard_card);
-                    hideAside(dashboard_card);
-                }
-});
-faq_button.addEventListener("click" , () => {
-    let faq_card = document.getElementById("faq_card");
-            faq_card.classList.toggle("active");
-                if(faq_card.classList.contains("active")){
-                    showHidden(faq_card);
-                    hideAside(faq_card);
-                }
-                else{
-                    hideElement(faq_card);
-                    hideAside(faq_card);
-                }
-});
-blog_button.addEventListener("click", () => {
-    let blog_card = document.getElementById("blog_card");
-            blog_card.classList.toggle("active");    
-                if (blog_card.classList.contains("active")) {
-                    showHidden(blog_card);
-                    hideAside(blog_card);
-                }
-                else{
-                    hideElement(blog_card);
-                    hideAside(blog_card);
-                }
-});
+function createElement(element,id) {
+    element.addEventListener("click", () => {
+        let card = document.getElementById(id);
+                card.classList.toggle("active");
+                    if (card.classList.contains("active")) {
+                        showHidden(card);
+                        hideAside(card);
+                    } else {
+                        hideElement(card);
+                        hideAside(card);
+                    }
+    });
+}
+
+createElement(profile_button, 'profile_card');
+createElement(dashboard_button, 'dashboard_card');
+createElement(faq_button, 'faq_card');
+createElement(blog_button, 'blog_card');
+
 function showHidden(element) {
     element.style.display = "block";
 }
